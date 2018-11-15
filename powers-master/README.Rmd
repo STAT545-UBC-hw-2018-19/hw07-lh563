@@ -36,7 +36,7 @@ See the vignette for more extensive use, but here's an example:
 powers::reciprocal(2)
 powers::square(1:10)
 library(gapminder)
-lmfun(gapminder$lifeExp, gapminder$gdpPercap, mydata = gapminder)
+powers::lm_plot(gapminder$lifeExp, gapminder$gdpPercap, mydata = gapminder)
 ```
 
 ## For Developers
