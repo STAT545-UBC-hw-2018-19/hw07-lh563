@@ -25,7 +25,7 @@ You can install powers from github with:
 
 ```{r gh-installation, eval = FALSE}
 # install.packages("devtools")
-devtools::install_github("hw07-lh563/powers")
+devtools::install_github("lh563/powers")
 ```
 
 ## Example
